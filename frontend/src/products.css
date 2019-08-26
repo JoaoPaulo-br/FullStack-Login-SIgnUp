@@ -1,0 +1,19 @@
+.box{
+  margin-top: 5%;
+
+}
+
+.row {
+  text-align: center;
+  margin-left: 2%;
+  float: left;
+  width: 30%;
+  height: 270px;
+  margin-top: 3%;
+  border-bottom: 1px solid firebrick;
+}
+
+.row img {
+  width: 200px;
+  height: 200px;
+}

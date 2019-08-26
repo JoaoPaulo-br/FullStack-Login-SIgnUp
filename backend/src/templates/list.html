@@ -1,0 +1,7 @@
+{% block content %}
+{% csrf_token %}
+{% for e in result %}
+{{ e.name }}
+{{e.vac.start}}-{{e.vac.end}}
+{% endfor %}
+{% endblock %}

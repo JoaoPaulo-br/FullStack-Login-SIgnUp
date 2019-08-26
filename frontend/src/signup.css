@@ -1,0 +1,55 @@
+.signup{
+  width: 40%;
+  height: 600px;
+  box-shadow: 2px 2px 5px  firebrick;
+  margin-left: 30%;
+  margin-top: 5%;
+  text-align: center;
+  -webkit-transition: width 0.5s
+}
+
+.nav a {
+  color: firebrick !important;
+}
+.nav li a {
+  color: grey !important
+}
+.signup label {
+  text-transform: uppercase;
+  color: firebrick;
+  font-size: 25px
+}
+
+.signup input {
+  width: 450px;
+}
+.signup label:nth-child(1) {
+  margin-top: 30px;
+}
+
+.captcha {
+  margin-left: 30%;
+}
+
+.signup input:focus {
+  box-shadow: 0 0 0 0.2rem hsla(0,100% ,90%,0.3) !important
+}
+
+.signup button {
+  margin-top: 7%;
+  background-color: white;
+  width: 170px;
+  color: firebrick;
+  border: 1px solid firebrick;
+  height: 45px;
+  -webkit-transition: width 0.5s
+
+}
+
+.signup button:hover {
+
+  background: firebrick;
+  color:white;
+  border:1px solid white;
+  width: 250px;
+}
